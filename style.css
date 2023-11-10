@@ -27,6 +27,7 @@ header{
 }
 
 input{
+    width: 100%;
     padding: 1rem;
     border-radius: 30px;
 
@@ -42,7 +43,68 @@ button{
     background-color: #2cb2ff;
 }
 
-main h1{
+main{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    height: 75vh;
+    margin-top: 10vh;
+    margin-left: 5%;
+
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.pick{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
     color: #2cb2ff;
     font-size: 70px;
+}
+
+img{
+    object-fit: contain;
+    transform: rotateY(180deg);
+    width: 670px;
+    height: 430px;
+}
+
+.pai-bolinha{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 12%;
+}
+
+.bolinha{
+    width: 30px;
+    height: 30px;
+
+    border-radius: 50%;
+    border: solid 2px black;
+}
+
+.azul{
+    background-color: #2cb2ff;
+}
+
+.vermelho{
+    background-color: crimson;
+}
+
+.marrom{
+    background-color: burlywood;
+}
+
+.cinza{
+    background-color: rgb(151, 151, 151);
+}
+
+.shop{
+    padding: 1rem;
+    width: 300px;
 }
